@@ -59,6 +59,9 @@
   z-index: 999;
 }
 
+#submenu-2{
+  width: 300px !important;
+}
 @media (min-width: 992px) {
   .site-header--sticky:not(.mobile-sticky-enable) {
     /*position: fixed !important;*/
@@ -818,10 +821,12 @@
   }
 }
 
+
 .nav-item-has-children a {
     display: flex;
     justify-content: space-between;
     text-transform: capitalize;
+   
 }
 
 .reveal-header {
