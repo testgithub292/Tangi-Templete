@@ -416,6 +416,10 @@
   content: none;
 }
 
+.shape-none{
+  width: 250px;
+}
+
 /*@media (min-width: 992px) {
   .site-menu-main .sub-menu {
     min-width: 235px;
