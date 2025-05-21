@@ -1163,7 +1163,7 @@ margin-top: 130px;
 ----------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------*/
 .site-footer {
-  background-color: whitesmoke;
+  background-color: #fff;
   color: black;
   padding: 40px 0 20px;
   font-family: 'Times New Roman', Times, serif;
@@ -1222,7 +1222,7 @@ margin-top: 130px;
 }
 
 .footer-contact button {
-  background-color: white;
+  background-color: #fff;
   color: black;
   border: none;
   padding: 10px;
@@ -1263,13 +1263,13 @@ margin-top: 130px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 50%;
   transition: background-color 0.3s ease;
 }
 
 .social-icon:hover {
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 .footer-legal {
