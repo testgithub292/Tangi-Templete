@@ -2420,7 +2420,7 @@ header.fugu--header-section.fugu--header-two.sticky-menu {
   margin: 25px 0 0;
   padding: 0 33px;
 }
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
   .fugu-responsive-btn {
     display: block;
   }
@@ -2976,12 +2976,12 @@ footer.fugo--footer-section.white-version .fugo--footer-bottom p {
   padding: 20px 55px;
   font-weight: 700;
   font-family: "Inter", sans-serif;
-  width: fit-content;
+  width: fit-content !important;
   position: relative;
   z-index: 1;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  display: inline-block;
+  white-space: nowrap; 
+   text-overflow: ellipsis;
+   display: inline-block;
   text-align: center;
   -o-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
@@ -4315,6 +4315,7 @@ a.fugu--readmore-btn span:before {
   letter-spacing: -0.5px;
   color: var(--gray-800);
 }
+
 
 .fugu-app-btn-wrap {
   margin: 55px 0 95px;
