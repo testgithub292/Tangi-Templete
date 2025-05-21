@@ -4495,7 +4495,7 @@ a.fugu-app-btn:last-child {
 .fugu-hero-section2 {
   z-index: 0;
   overflow: hidden;
-  padding: 188px 0 430px;
+  padding: 150px 0 430px;
   position: relative;
   background-color: var(--warning-200);
 }
