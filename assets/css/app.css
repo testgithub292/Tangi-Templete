@@ -11600,3 +11600,13 @@ circle {
 
 /*1.4 themes css*/
 /*# sourceMappingURL=app.css.map */
+/*--------------------*/
+@media (max-width: 992x) {
+#section2_row{
+   display: block !important;
+}
+
+  #section2_col{
+    width: 100% !important;
+  }
+}
