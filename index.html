@@ -27,13 +27,13 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="images/logotab icon.jpeg">
   <title>Gettangi.com</title>
-
-  <link rel="icon" type="x-icon" sizes="any" href="images/logotab icon.jpeg">
-
+  
   <link rel="stylesheet" href="stylehomepage.css">
+  <!-- <link rel="icon" type="x-icon" sizes="any" href="images/logotab icon.jpeg">
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 
-  <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/navbars/navbar-1/assets/css/navbar-1.css">
+  <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/navbars/navbar-1/assets/css/navbar-1.css"> -->
 
   <!--CDN social Link----------------------------------------------------------------->
 
@@ -41,7 +41,29 @@
 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 
+<!-- /*-------------templete ---------------------*/ -->
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <!--- End favicon-->
 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Public+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <!-- End google font  -->
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/fontawesome.css" />
+  <link rel="stylesheet" href="assets/css/slick.css" />
+  <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="assets/css/icomoon-font.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+
+
+  <!-- Code Editor  -->
+
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/app.min.css" />
+
+  <!-- /*-------------templete ---------------------*/ -->
 </head>
 
 <body>
@@ -71,930 +93,628 @@
 
 
 
-  <header>
-    <nav class="navbar navbar-expand-xxl navbarcolorstyle bsb-navbar bsb-navbar-hover bsb-navbar-caret fixed-top" id="navbar">
-      <div class="container" id="navcontainer">
-        <a class="navbar-brand" href="">
-          <!--b>8tech Payment</b-->
-          <img src="images/logo final bg none.png" class="imagenavfirstlogo" alt="logo-Gettangi.com" width="170px"  height="50px">
-          <!--img src="images/logo final bg none.png" class="imagenavfirstlogo" alt="logo-Gettangi.com" width="170px" height="50px"-->
-        </a>
-        <div id="contact_bt_css" class="bytokenbtnnav2">
-          <a class="nav-link" id="bytokenbtnnav" href="coming_soon_page.html">Buy Token</a>
+  <header class="site-header fugu--header-two fugu-header-section" id="sticky-menu">
+    <div class="container-fluid">
+      <nav class="navbar site-navbar">
+        <!-- Brand Logo-->
+        <div class="brand-logo">
+          <a href="index.html">
+            <img src="assets/images/logo/logo-black.svg" alt="" class="light-version-logo">
+          </a>
         </div>
-        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list"  viewBox="0 0 16 16">
-            <path fill="#5737c4" fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-
-          </svg>
-        </button>
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header" id="offcanvasNavbarDropdown">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body" id="navbarcolorstyle">
-            <ul class="navbar-nav justify-content-end flex-grow-1">
-              <li class="nav-item">
-                <a class="nav-link active" id="textstyle" aria-current="page" href="index.html">Home</a>
+        <div class="menu-block-wrapper">
+          <div class="menu-overlay"></div>
+          <nav class="menu-block" id="append-menu-header">
+            <div class="mobile-menu-head">
+              <div class="go-back">
+                <i class="fa fa-angle-left"></i>
+              </div>
+              <div class="current-menu-title"></div>
+              <div class="mobile-menu-close">&times;</div>
+            </div>
+            <ul class="site-menu-main">
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">Demo <i class="fas fa-angle-down"></i></a>
+                <ul class="sub-menu" id="submenu-1">
+                  <li class="sub-menu--item">
+                    <a href="index.html">home 01</a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="index-2.html">home 02</a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="index-3.html">home 03</a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="index-4.html">home 04</a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="index-5.html">home 05</a>
+                  </li>
+                </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" id="textstyle" aria-current="page" href="tangi token/The Problem.html">The  Problem</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" id="textstyle" aria-current="page" href="tangi token/The Solution Feb.html">Our Solution</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" id="textstyle" aria-current="page" href="#movesectioncontactustoclub">The Offer</a>
-              </li>
-              <!--li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Key info</a>
-                              <ul class="dropdown-menu border-0 shadow bsb-zoomIn" id="dropdownitemcolor" aria-labelledby="servicesDropdown">
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tabs 1/The Cannabis Industry Opportunity.html">The Cannabis Industry Opportunity</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tabs 1/Security and Stability Through Compliance.html">Compliance For Security and Stability</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tabs 1/Rewards and Incentives for Token Users.html">Rewards and Incentives for Token Users</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tabs 1/How the Token Works.html">How the Token Works</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tabs 1/Expanding Beyond Cannabis.html">Expanding Beyond Cannabis</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tabs 1/Everything You Need to Know.html">Everything You Need to Know</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tabs 1/Our Journey to Compliance.html">Our Journey to Compliance</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tabs 1/Gratitude to Our Earliest Investors.html">Gratitude to Our Earliest Investors</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tabs 1/The Evolution of Our Vision.html">The Evolution of Our Vision</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tabs 1/Commitment to Long-Term Investors.html">Commitment to Long-Term Investors</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tabs 1/Social Media Tab.html">Social Media</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tabs 1/Roadmap.html">Roadmap</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tabs 1/Key Milestones.html">Key Milestones</a></li>
-                              </ul>
-                          </li-->
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"  data-bs-toggle="dropdown" aria-expanded="false">Investors Hub </a>
-                <ul class="dropdown-menu border-0 shadow bsb-zoomIn" id="dropdownitemcolor" aria-labelledby="servicesDropdown">
-                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tangi token/our team.html">Our People</a></li>
-                  <!--li><a class="dropdown-item" id="dropdownitemcolor" href="tangi token/Investment to Listing.html">Public Listing</a></li-->
-
-                  <li class="dropdown-submenu position-relative">
-                    <a class="dropdown-item dropdown-toggle" href="#" id="publicListingToggle">Public Listing</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="tangi token/Investment to Listing.html">Overview</a></li>
-                      <li><a class="dropdown-item" href="tangi token/Getting In - The Entry Plan.html">Getting In - The Entry Plan</a></li>
-                      <li><a class="dropdown-item" href="tangi token/Getting Out - The Exit Plan.html">Getting Out - The Exit Plan</a></li>
-                      <li><a class="dropdown-item" href="tangi token/Or Hold For More Upside.html">Or Hold For More Upside?</a></li>
-                      <li><a class="dropdown-item" href="tangi token/End User Buy, You Profit.html">End Users Buy, You Profit</a></li>
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">Pages <i class="fas fa-angle-down"></i></a>
+                <ul class="sub-menu" id="submenu-2">
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">About <i class="fas fa-angle-down"></i></a>
+                    <ul class="sub-menu shape-none" id="submenu-3">
+                      <li class="sub-menu--item">
+                        <a href="about-dark.html">About Dark</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="about-us.html">About light 01</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="about-light.html">About light 02</a>
+                      </li>
                     </ul>
                   </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">blog light <i class="fas fa-angle-down"></i></a>
+                    <ul class="sub-menu shape-none" id="submenu-4">
+                      <li class="sub-menu--item">
+                        <a href="blog-light.html">blog light</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="blog.html">blog light sidebar 01</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="blog-light-sidebar.html">blog light sidebar 02</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-blog.html">blog light details</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">blog dark <i class="fas fa-angle-down"></i></a>
+                    <ul class="sub-menu shape-none" id="submenu-5">
+                      <li class="sub-menu--item">
+                        <a href="blog-dark.html">blog dark</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="blog-dark-sidebar.html">blog dark sidebar</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-dark-blog.html">blog dark details</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Service<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-6">
+                      <li class="sub-menu--item">
+                        <a href="service.html">service</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-service.html">single service</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Team<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-7">
+                      <li class="sub-menu--item">
+                        <a href="team-dark.html">Team dark</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="team.html">Team light 01</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="team-light.html">Team light 02</a>
+                      </li>
 
-                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tangi token/Round 1 Investors Testimonials.html">Round 1 Investors Testimonials</a></li>
-
-                  <!--li><a class="dropdown-item" id="dropdownitemcolor" href="tangi token/The Problem.html">The Problem </a></li>
-                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tangi token/The Root of the Problem.html">The Root of the Problem </a></li>
-                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tangi token/The Solution Feb.html">Our Solution </a></li-->
-                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tangi token/How Our Solution Works.html">How Our Solution Works </a></li>
-                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tangi token/Investor Highlight Reel.html">Investor Highlight Reel</a></li>
-                  <!--li><a class="dropdown-item" id="dropdownitemcolor" href="tangi token/Ideal Timing for Round 2.html">Ideal Timing for Round 2</a></li-->
-                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tangi token/Our Market Entry Strategy.html"> Market Entry Strategy</a></li>
-                  <!--li><a class="dropdown-item" id="dropdownitemcolor" href="tangi token/Credibility of Our Project.html">Credibility of Our Project </a></li-->
-                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tangi token/Market Potential.html">Market Potential</a></li>
-                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tangi token/Tangi Tokenomics.html">Tangi Tokenomics</a></li>
-                  <li><a class="dropdown-item" id="dropdownitemcolor" href="tangi token/Legal Landscape.html">Legal Landscape</a></li>
-
-                  <!--li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/Overview.html">Overview</a></li-->
-                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/Our_Story.html">Our Story</a>  </li>
-                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/A Special Thank You to Our Round 1 Investors.html">Round 1 Members, Thank  You!</a></li>
-                  <!--li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/Investor Priortised.html">Investor Priortised</a></li-->
-                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/So_far so good.html">Our Past, Present & Future</a></li>
-                  <!--li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/Non Copliant Illegal Competitors.html">Non Copliant  Competitors</a></li-->
-                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/Mitigating_Risk_Factors.html">Mitigating Risk Factors</a></li>
-                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/Risk Warning for Investors.html">Risk Warning for Investors</a></li>
-                  <li><a class="dropdown-item" id="dropdownitemcolor" href="about us/Potential ROI.html">Potential ROI</a></li>
-
-
-                  <!--li><a class="dropdown-item" id="dropdownitemcolor" href="tangi token/token functionality.html">Token Functionality</a></li>
-                                <li><a class="dropdown-item" id="dropdownitemcolor" href="tangi token/incentives & rewards.html">Incentives & Rewards</a></li>
-                                <li><a class="dropdown-item" id="dropdownitemcolor" href="tangi token/problem&solution.html">Insight & Impact</a></li-->
+                      <li class="sub-menu--item">
+                        <a href="single-team.html">single team</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Career<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-8">
+                      <li class="sub-menu--item">
+                        <a href="career.html">Career</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-career.html">single Career</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Portfolio<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-9">
+                      <li class="sub-menu--item">
+                        <a href="portfolio-01.html">Portfolio Classic</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="portfolio-02.html">Portfolio Minimal</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="portfolio-03.html">Portfolio Modern</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-portfolio.html">Single Portfolio</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Pricing Light<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-10">
+                      <li class="sub-menu--item">
+                        <a href="pricing-light-01.html">pricing light 01</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="pricing-light-02.html">pricing light 02</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Pricing Dark<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-11">
+                      <li class="sub-menu--item">
+                        <a href="pricing-dark-01.html">pricing dark 01</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="pricing-dark-02.html">pricing dark 02</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Privacy Policy<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-12">
+                      <li class="sub-menu--item">
+                        <a href="privacy-policy-light.html">Privacy Policy light</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="privacy-policy-dark.html">Privacy Policy dark</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Utility<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-13">
+                      <li class="sub-menu--item">
+                        <a href="faq.html">faq</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="error-404.html">Error 404</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="testimonial.html">testimonial</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="coming-soon.html">Coming Soon</a>
+                      </li>
+                    </ul>
+                  </li>
                 </ul>
               </li>
-              <!--li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="accountDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Tangi Payment</a>
-                          <ul class="dropdown-menu border-0 shadow bsb-zoomIn" id="offcanvasNavbarDropdown" aria-labelledby="accountDropdown">
-                            <li><a class="dropdown-item" id="dropdownitemcolor" href="tangi payment/benefits.html">Benefits for Retailers & Consumers</a></li>
-                              <li><a class="dropdown-item" id="dropdownitemcolor" href="tangi payment/how it works.html">How It Works</a></li>
-                              <li><a class="dropdown-item" id="dropdownitemcolor" href="tangi payment/Legit vs. Illicit.html">Legit vs. Illicit</a></li>
-                          </ul>
-                      </li-->
-              <!--li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Token Info</a>
-                                <ul class="dropdown-menu border-0 shadow bsb-zoomIn" id="dropdownitemcolor" aria-labelledby="servicesDropdown">
-                                    <li><a class="dropdown-item" id="dropdownitemcolor" href="token information/market opportunity.html">Market Opportunity</a></li>
-                                    <li><a class="dropdown-item" id="dropdownitemcolor" href="token information/token details & goals.html">Token Details & Goals</a></li>
-                                    <li><a class="dropdown-item" id="dropdownitemcolor" href="token information/roadmap.html"> RoadMap</a></li>
-                                    <li><a class="dropdown-item" id="dropdownitemcolor" href="token information/updates.html"> Updates</a></li>
-
-                                    <li><a class="dropdown-item" id="dropdownitemcolor" href="token information/Adaptive Risk Control.html"> Risk Management</a></li>
-                               </ul>
-                            </li-->
-              <li class="nav-item">
-                <a class="nav-link active" id="textstyle" aria-current="page" href="Our Partners.html">Our Partners</a>
+              <li class="nav-item nav-item-has-children has-megamenu">
+                <a href="#" class="nav-link-item drop-trigger">elements <i class="fas fa-angle-down"></i></a>
+                <div class="sub-menu megamenu  megadropdown-center  d-lg-flex" id="submenu-100">
+                  <ul class="col-lg-12 row-lg list-unstyled py-lg-7">
+                    <li class="col-lg-3">
+                      <div class="single-dropdown-block">
+                        <h3>about Style</h3>
+                        <a href="about-dark.html" class="mega-drop-menu-item sub-menu--item">About us Dark</a>
+                        <a href="about-us.html" class="mega-drop-menu-item sub-menu--item">about us light 01</a>
+                        <a href="about-light.html" class="mega-drop-menu-item sub-menu--item">about us light 01</a>
+                      </div>
+                    </li>
+                    <li class="col-lg-3">
+                      <div class="single-dropdown-block">
+                        <h3>blog Style</h3>
+                        <a class="mega-drop-menu-item sub-menu--item" href="blog-dark.html">blog dark</a>
+                        <a class="mega-drop-menu-item sub-menu--item" href="blog-dark-sidebar.html">blog dark sidebar</a>
+                        <a class="mega-drop-menu-item sub-menu--item" href="single-dark-blog.html">blog dark details</a>
+                        <a class="mega-drop-menu-item sub-menu--item" href="blog-light.html">blog light</a>
+                        <a class="mega-drop-menu-item sub-menu--item" href="blog.html">blog light sidebar 01</a>
+                        <a class="mega-drop-menu-item sub-menu--item" href="blog-light-sidebar.html">blog light sidebar 02</a>
+                        <a class="mega-drop-menu-item sub-menu--item" href="single-blog.html">blog light details</a>
+                      </div>
+                    </li>
+                    <li class="col-lg-3">
+                      <div class="single-dropdown-block">
+                        <h3>Portfolio Style</h3>
+                        <a href="portfolio-01.html" class="mega-drop-menu-item sub-menu--item">Portfolio Classic </a>
+                        <a href="portfolio-02.html" class="mega-drop-menu-item sub-menu--item">Portfolio Minimal</a>
+                        <a href="portfolio-03.html" class="mega-drop-menu-item sub-menu--item">Portfolio Modern</a>
+                        <a href="single-portfolio.html" class="mega-drop-menu-item sub-menu--item d-block">portfolio details</a>
+                      </div>
+                    </li>
+                    <li class="col-lg-3">
+                      <div class="single-dropdown-block">
+                        <h3>contact style</h3>
+                        <a href="contact-dark.html" class="mega-drop-menu-item sub-menu--item d-block">contact dark</a>
+                        <a href="contact.html" class="mega-drop-menu-item sub-menu--item d-block">contact light 01</a>
+                        <a href="contact-light.html" class="mega-drop-menu-item sub-menu--item d-block">contact light 02</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
               </li>
-              <!--li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Project info</a>
-                              <ul class="dropdown-menu border-0 shadow bsb-zoomIn" id="dropdownitemcolor" aria-labelledby="servicesDropdown">
-
-                                  
-                                  <!-li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/The Short Version.html">The Short Version</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/Understanding the problem.html">Understanding the problem</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/Our Legal Solution.html"> Our Legal Solution</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/The Crucial Role of the token.html"> The Crucial Role of the token</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/Illegal competitors.html"> Illegal competitors</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/The legal landscape.html"> The legal landscape</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/Our leverage.html"> Our leverage</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/So far so good.html"> So far so good </a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/Expected Growth.html"> Expected Growth</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/Market Testing Complete.html"> Market Testing Complete</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/Market Opportunity.html"> Market Opportunity</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/Our Team.html"> Our Team</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/Comparable Projects.html"> Comparable Projects</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/The Solution.html"> The Solution</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/The Problem.html"> The Problem</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/Our Story.HTML"> Our Story</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/Risk Management.html"> Risk Factor</a></li>
-                                  <li><a class="dropdown-item" id="dropdownitemcolor" href="project_info/Our Competitive Advantages.html">Our Competitive Advantages</a></li->
-
-
-
-                              </ul>
-                          </li-->
-              <!--li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
-                                <ul class="dropdown-menu border-0 shadow bsb-zoomIn" id="dropdownitemcolor" aria-labelledby="servicesDropdown">
-                                    <li><a class="dropdown-item" id="dropdownitemcolor" href="about us/core team.html">Core Team</a></li>
-                                    <li><a class="dropdown-item" id="dropdownitemcolor" href="about us/advisors.html">Advisor</a></li>
-                                    <li><a class="dropdown-item" id="dropdownitemcolor" href="about us/parteners.html">Partners</a></li>
-                                </ul>
-                            </li-->
-              <!--li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Payment</a>
-                                <ul class="dropdown-menu border-0 shadow bsb-zoomIn" id="dropdownitemcolor" aria-labelledby="servicesDropdown">
-                                    <li><a class="dropdown-item" id="dropdownitemcolor" href="#">The Problem</a></li>
-                                    <li><a class="dropdown-item" id="dropdownitemcolor" href="#">Our Solution</a></li>
-                                    <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" id="dropdownitemcolor" href="#">Incentives</a>
-                                        <ul class="dropdown-menu border-0 shadow bsb-zoomIn" id="dropdownitemcolor">
-                                            <li><a class="dropdown-item" id="dropdownitemcolor" href="#">Retailer Benefits</a></li>
-                                            <li><a class="dropdown-item" id="dropdownitemcolor" href="#">Consumer Benefits</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li-->
-              <li class="nav-item">
-                <a class="nav-link active" id="textstyle" aria-current="page" href="#movesectionmedia">Our Media</a>
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">Blog <i
+                  class="fas fa-angle-down"></i></a>
+                <ul class="sub-menu" id="submenu-14">
+                  <li class="sub-menu--item">
+                    <a href="blog-dark.html">blog dark</a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="blog-dark-sidebar.html">blog dark sidebar</a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="single-dark-blog.html">blog dark details</a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="blog-light.html">blog light</a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="blog.html">blog light sidebar 01</a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="blog-light-sidebar.html">blog light sidebar 02</a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="single-blog.html">blog light details</a>
+                  </li>
+                </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" id="textstyle" aria-current="page" href="https://t.me/GetTangiToken" target="_blank">Connect To Investors </a>
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">Contact us <i
+                  class="fas fa-angle-down"></i></a>
+                <ul class="sub-menu" id="submenu-15">
+                  <li class="sub-menu--item">
+                    <a href="contact-dark.html">contact dark</a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="contact.html">contact light 01</a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="contact-light.html">contact light 02</a>
+                  </li>
+                </ul>
               </li>
 
+              <li class="header-btn header-btn-l1 fugu-responsive-btn">
+                <a class="fugu-btn fugu-header-btn fugu-header-btn2" href="contact.html">
+                  Get Started
+                </a>
+              </li>
             </ul>
-
-            <!--div id="contact_bt_css" class="bytokenbtnnav">
-                          <a class="nav-link" id="bytokenbtnnav" href="https://member.gettangi.com/" target="_blank">Buy Token</a>
-                      </div-->
-            <div id="contact_bt_css">
-              <a class="nav-link" id="confetti-btn" href="coming_soon_page.html">Buy Token</a>
-            </div>
-          </div>
+          </nav>
         </div>
-      </div>
-    </nav>
+        <div class="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
+          <a class="fugu-btn fugu-header-btn fugu-header-btn2" href="contact.html">
+            Get Started
+          </a>
+        </div>
+        <!-- mobile menu trigger -->
+        <div class="mobile-menu-trigger">
+          <span></span>
+        </div>
+        <!--/.Mobile Menu Hamburger Ends-->
+      </nav>
+    </div>
   </header>
+    <main>
 
-  <!--div class="overlay" id="overlay"></div>
-    <div class="preloader">
-      <h3 style="color: yellow;">Warning</h3>
-      <p>Do not invest in this project if you are not prepared to lose all your money, this is high risk investing.</p>
-    </div-->
-
-
-  <main id="container">
-
-    <div class="hero_firstsection">
-      <div class="content_firstsection">
-        <h1>Pre-sale: Round 2 Live</h1>
-        <p class="content_firstsection1">
-          <b class="firstsectionsecondline">Investing your way into the future</b>
-
-          <br>
-          <br>
-          Welcome to Tangi’s Investor Portal. This site is designed exclusively for investors considering Round 2 of our
-          Token Presale. The information provided here is intended to help you conduct your own due diligence and assess
-          the potential value of investing in Tangi. However, it is important to review all available information
-          independently and make your own informed investment decision.
-          <br>
-          <br>
-
-        </p>
-
-        <div class="content_firstsection2"></div>
-
-        <a href="#movesectioncontactustoclub" class="btnfirstsection" id="customButtonbuy">Join Our PreSale Now</a>
-        <br class="firstsectiontwobtnword">
-        <b style="font-size: 20px;">OR</b>
-        <br class="firstsectiontwobtnword">
-        <a href="#movesectioncontactustoclub" class="btnfirstsection">Join Our Exclusive Investor Club</a>
-      </div>
-
-
-    </div>
-
-
-
-    <div class="container" style="margin-top: 50px; font-family: 'Times New Roman', Times, serif; font-size: 17px;">
-      <section id="Round_2_Live">
-      <h1 style="color: #5737c4; font-weight: bold;">Pre-sale: Round 2 Live</h1>
-      <b class="firstsectionsecondline" style="color: #228B22; font-weight: normal;">Investing your way into the future</b>
-      <br>
-      <br>
-      <p class="animate-p">For investors, the question is always the same: Where’s the opportunity? What’s the edge? Why </p>
-      <p class="animate-p"> At Tangi, we provide compliant banking and payment processing solutions to industries that
-        major banks and card networks refuse to serve. One of the most significant opportunities today lies in the legal
-        cannabis industry, which generated <b>$33</b> billion in cash sales last year alone. Since payment providers
-        cannot service this sector compliantly, a massive gap has emerged — and for the right team, that means an
-        equally massive opportunity.
-        Read on to discover why providers cannot tap into the industry and how we have created a proven opportunity for
-        investors like you by solving the problem.</p>
-        </section>
-      <br>
-      <!--p class="animate-p">Where others have stumbled—launching unstable, non-compliant solutions that ultimately collapsed—we’ve taken a different path. We secured what no one else could: a banking relationship with a forward-thinking bank aligned with our vision of providing compliant banking and payment services to the cannabis industry. It’s the one element that separates us from every failed provider before us, and the foundation that makes this project sustainable, legal, and built for scale.</p-->
-        <section id="the_problem_and_solution_homepage">
-      <div class="row" id="presalesection_row">
-        <h3 style="color: #5737c4; font-size: 30px; font-weight: bold;">Where You Fit In — And Why This Opportunity Exists</h3>
-        <b class="firstsectionsecondline" style="color: #228B22; font-weight: normal;">The Problem</b>
-
-
-        <br>
-        <div class="col  animate-left">
-          <br>
-          <p>Payment solutions in the cannabis industry have not failed because they lack innovation. They have failed
-            because they lack one crucial element—a banking partner.
-          <p> Despite the legal cannabis industry generating <b>$33</b> billion in retail sales annually, major banks
-            and payment networks like Visa and MasterCard refuse to support it. This has forced 8,000 retailers and 60
-            million consumers into an outdated, cash-only system—creating inefficiencies, security risks, and lost
-            revenue. </p>
-          <p>Without a bank to support transactions, every payment provider before us has either collapsed or been
-            forced into non-compliance, inevitably getting shut down. That’s why the market is still dominated by cash,
-            despite its <b>$33</b> billion annual turnover. <a href="tangi token/The Problem.html" class="modern-link" style="font-size: 18px; color: blue;">Click Here To Learn More About The Problem</a>
-          </p>
-
-
-          <!--p>Tangi’s token is the first utility token ever legally integrated into a regulated financial system—making it a historic first. Operating at the centre of our fully legal, bank-backed digital payment system, our token powers a compliant solution no other provider has been able to deliver. </p>
-      <p class="animate-p">Tangi is the only company positioned to serve this $33B market with a sustainable, regulated alternative to cash.  It is a real-world asset, poised to power real-world transactions for a market of 60 million consumers and 8,000 retailers with an essential need. </p>
-      <p class="animate-p">From an investment standpoint, this is where things become especially compelling. Here’s what matters to you as an investor:</p>
-      <ul>
-        <li class="animate-p">There will only ever be 250 million Tangi Tokens.</li>
-        <li class="animate-p">At public listing, just 50 million will be in circulation—all exclusively held by presale early investors like you.</li>
-      </ul-->
+  <div class="fugu-hero-section2">
+    <div class="container">
+      <div class="fugu-hero-content fugu-hero-content2">
+        <h1 class="wow fadeInUpX" data-wow-delay="0s">The leading platform for cryptocurrency traders</h1>
+        <p class="wow fadeInUpX" data-wow-delay="0.25s">We offer a full-fledged long-term rental platform to cryptocurrency users. It plans to use blockchain technology to ensure a secure seamless rental experience.</p>
+        <div class="fugu-hero-btn-wrap wow fadeInUpX" data-wow-delay="0.40s">
+          <a class="fugu-btn fugu-round-btn active" href="contact.html">Get Started</a>
+          <a class="fugu-btn fugu-round-btn" href="contact.html">How to Buy & Sell</a>
         </div>
-        <div class="col animate-right" id="presalesection_col2">
-          <video class="lazy-video" style="border-radius: 10px;" width="100%" controls preload="none" poster="images/brian-cown-thub nail first video .png">
-            <source data-src="videos/pre page video.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-      <b class="firstsectionsecondline" style="color: #228B22; font-weight: normal;">Our Solution</b>
-      <br>
-      <br>
-      <p class="animate-bottom"> Our competitive advantage isn’t patentable technology or specialized hardware. It’s the
-        one thing that no other provider has obtained and the one thing required for susseess in this sector: a banking
-        partner. <b>We have secured a banking relationship with a forward-thinking bank that shares our vision of
-          providing compliant banking and payment services to the cannabis industry.</b></p>
-      <p class="animate-bottom">This exclusive banking relationship is our most valuable asset. It’s the foundation that
-        allows our payment system to operate legally and sustainably, and it’s what gives our token the credibility and
-        utility to thrive.</p>
-      <p class="animate-bottom">Our all-in-one payment terminal offers fully bank-backed payment options — including
-        debit, credit, and direct bank-to-bank transfers — giving cannabis retailers the compliance, speed, and
-        convenience they’ve long been denied. But the real innovation is Tangi Token. While traditional methods attract
-        and onboard the customer, every road leads to token payments. Thanks to our exclusive banking partnership, we’re
-        the only provider able to offer this fully compliant bridge — allowing us to easily capture the market of 60
-        million unbanked cannabis consumers and gradually transition them to the token, where the true value lies for
-        retailers, consumers, and investors alike.</p>
-      <p class="animate-bottom">It positions Tangi not just to participate in the market, but to dominate it.
-        Because our payment infrastructure is built on compliance, our token is now on a direct path to adoption among
-        up to 60 million end users who need it as a tool for everyday transactions. <a href="tangi token/The Solution Feb.html" class="modern-link" style="font-size: 18px; color: blue;">Click Here To Learn More About The Solution</a></p>
-</section>
-      <!--h3 style="color: #5737c4; font-size: 30px; font-weight: bold;">The First Fully Compliant Payment Infrastructure</h3-->
-  <section id="60_Million_Potential_homepage">
-      <br>
-      <h3 style="color: #5737c4; font-size: 30px; font-weight: bold;">60 Million Potential Token End Users</h3>
-      <b class="firstsectionsecondline" style=" color: #228B22; font-weight: normal;">Tangi’s Addressable Market Is Twice the Size of Binance’s User Base</b>
-
-      <div class="row" id="presalesection_row">
-        <div class="col">
-          <br>
-
-          <p class="animate-bottom">With access to over 60 million cash-based consumers in the U.S. cannabis market,
-            Tangi is uniquely positioned to serve a community double the size of Binance’s 30 million users — but with
-            one major advantage: real-world use, not just speculation.</p>
-          <!--h3 style="color: #5737c4; font-size: 30px; font-weight: bold;">Consumers Are Onboarded Naturally and Seamlessly</h3-->
-
-          <p class="animate-bottom">Consumers gravitate to our platform because, for the first time, they can pay like
-            they do everywhere else — no cash, no clunky apps.
-            Once inside our ecosystem, consumers aren't forced to change behavior overnight. We first capture them
-            through traditional, familiar means — debit cards, credit cards, mobile payments — just like any other
-            retail experience.
-            From there, we begin to incentivize token use for payments through rewards, exclusive discounts, free
-            vouchers, and loyalty bonuses. Everyone in the chain—consumers, retailers, and our company—is incentivized
-            to adopt, promote, and use token payments.
-            <a href="tangi token/End User Buy, You Profit.html" class="modern-link" style="font-size: 18px; color: blue;">Click Here To See How</a>
-          </p>
-        </div>
-        <div class="col" id="presalesection_col2">
-          <video class="lazy-video" style="border-radius: 10px;" width="100%" controls preload="none" poster="images/zach-thumb nail video.png">
-            <source data-src="videos/zach video home page.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-      <p class="animate-bottom">Once consumers experience the benefits of paying with Tangi Token, we introduce our
-        auto-replenishment feature.
-        Their wallets are topped up automatically based on their typical weekly or monthly spend. Their card or bank is
-        simply charged for a token bundle that matches their historical usage.
-        They tap their phone in-store to pay with Tangi Tokens, while our software automatically applies rewards and
-        discounts in the background.
-        It’s smooth, intuitive, and virtually invisible to the end user.
-      </p>
-      </section>
-      <!--h3 style="color: #5737c4; font-size: 30px; font-weight: bold;">Retailers Finally Get What They’ve Been Waiting For</h3-->
-
-      <br>
-      <section id="Here_Where_and_you_hold_homepage">
-      <h3 style="color: #5737c4; font-size: 40px; font-weight: bold;" class="specialbigtext">
-        Here’s Where Things Get Powerful For Investors
-      </h3>
-      <b class="firstsectionsecondline" style=" color: #228B22; font-weight: normal;">From Storefront to Exchange — The Cycle That Fuels Investor Gains</b>
-
-      <br>
-      <br>
-
-      <p class="animate-bottom">Initially, those auto-replenishments are fulfilled from our internal token reserves. But
-        once we launch on public exchanges, we flip the switch. We begin directing all wallet replenishments to the
-        exchange.
-        The process doesn’t change for the consumer — but now they’re buying from the market.
-
-      </p>
-
-      <div class="row" id="presalesection_row">
-        <div class="col animate-left">
-          <p> And they’re doing it automatically, every week, every month, on a continuous loop. These are repeat
-            buyers.
-            They don’t even need to think about it.
-            They just keep spending, earning, and reloading — driving token demand in a sustainable, compounding cycle.
-          </p>
-          <!--h3 style="color: #5737c4; font-size: 30px; font-weight: bold;">A Compounding, Self-Sustaining Ecosystem</h3-->
-          <h3 style="color: #5737c4; font-size: 30px; font-weight: bold;">You Hold — We Deliver the Buyer</h3>
-          <br>
-          <p>This is what sets Tangi apart.
-            We aren’t selling a speculative asset.
-            We’re building infrastructure that moves value, captures users, and turns everyday spending into
-            investor-driven liquidity.
-            As each new end user is onboarded, we bring them to the exchange to buy tokens — your tokens.We don’t just
-            build the infrastructure.
-          </p>
-
-          <p><b>We deliver your buyer — fully onboarded, compliant, and ready to transact.</b></p>
-
-        </div>
-        <div class="col animate-right" id="presalesection_col2">
-          <video class="lazy-video thesolution_sectionvideo" style="border-radius: 10px;" width="100%" controls preload="none" poster="images/STAN-LAR-THUMB nail video 3.png">
-            <source data-src="videos/Stan_Amazon 3 video.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-
-
-      <p class="animate-bottom">You don’t have to find the buyer.
-        You don’t have to hype the token.
-        You don’t have to lift a finger.
-        You simply hold your tokens.
-        And when the time is right, we’ll even guide you through the optimal selling strategy — all backed by a growing
-        ecosystem of real users.
-      </p>
-      <p class="animate-bottom">By joining our presale, you’re investing in a token that launches with built-in
-        adoption, embedded in an industry desperate for a real solution. With a fixed circulating supply of 50 million
-        tokens, presale investors will control <b>100%</b> of the available supply when it lists.
-
-        Opportunities like this don’t need hard selling — they just need seeing.
-      </p>
-      </section>
-
-      <!--h3 style="color: #5737c4; font-size: 30px; font-weight: bold;">Fixed Supply. Growing Demand. Long-Term Upside.</h3>
-                    <br>
-                    <b>Here’s what that means:</b>
-                    <ul>
-                      <li>Demand constantly increases as more users come on board</li>
-                      <li>Supply remains fixed — no token inflation</li>
-                      <li>Price inevitably rises over time</li>
-                    </ul-->
-      <!--h3 style="color: #5737c4; font-size: 30px; font-weight: bold;">What’s the Long-Term Potential?
-                    </h3-->
-
-    </div>
-<section id="Buy_Before_Public_Listing_homepage">
-    <div class="fivthsectionbg">
-      <div class="container">
-        <div style="text-align: center;">
-          <p class="fivesectionheading" style="color: #5737c4;  font-weight: bold;">Buy Before Public Listing</p>
-        </div>
-
-        <div class="row" id="option_sectionrow">
-          <div class="col-5 animate-left" id="option_sectioncol">
-            <b class="firstsectionsecondline" style=" color: #006400; font-weight: bold;"> Secure Your Tokens at Just <b>$0.80</b></b>
-            <br>
-            <br>
-            <p>Round 2 of our token sale is now open — giving investors an exclusive opportunity to purchase Tangi Token
-              (TNG) at just <b>$0.80</b>, ahead of its scheduled public listing between <b>October 1st and November 30th 2025</b>, where it will debut at <b>$1.50</b>.
-              </p>
-            <p>This is your chance to enter early — before public trading begins, and with strong fundamentals in place.</p>
-            <p><b>Limited Supply, Expanding Demand</b></p>
-            <p>Tangi is not a speculative meme coin — it is a utility token embedded into a real-world payment ecosystem
-              for the legal cannabis industry. As we begin onboarding end users — including retailers and consumers — to
-              our payment services, they will purchase Tangi tokens directly from the exchange.</p>
-
-          </div>
-          <div class="col-1 text-center" id="option_sectioncol2">
-            <hr class="vertical-hrpre_page5">
-            <!--a href="#" class="btnfirstsection">Join Elite Membership</a-->
-          </div>
-          <div class="col-5 animate-right" id="option_sectioncol">
-            <b class="firstsectionsecondline" style=" color: #006400; font-weight: bold;"> Round 1 Investors fully Staked Already</b>
-            <br>
-            <br>
-            <p>Over 5 million tokens have already been staked by Round 1 investors, many of whom have locked their
-              holdings for up to 18 months. This significantly reduces circulating supply and adds a crucial layer of
-              price stability once the token goes live.
-            </p>
-
-            <p>With a fixed token supply and increasing usage, demand naturally strengthens over time. Our financial
-              models suggest that even capturing just <b>1%</b> of the U.S. cannabis transaction market could see token
-              valuations trend toward <b>$6.60</b>, as part of a long-term adoption curve.</p>
-            <p>While no one can predict market behavior, our structure is built for utility, not hype — and this makes
-              early entry at <b>$0.80</b> a compelling opportunity for aligned investors.</p>
-
-          </div>
-        </div>
-
-        <div class="row" id="presalesection_row">
-          <div class="col">
-            <p class="animate-bottom">This is a unique entry point that places you ahead of the curve. With the majority
-              of
-              Round 1 tokens already voluntarily staked, price stability at listing is significantly supported. These
-              early
-              holders have already locked in their trust in the project — and their tokens — for up to 18 months,
-              minimizing
-              sell pressure and supporting healthy exchange dynamics. But what really sets Tangi apart is our real-world
-              utility and clear path to organic demand.
-            </p>
-
-            <p class="animate-bottom">As we begin our rollout across dispensaries and onboard end users to our platform, we’re not relying on speculation — we’re building adoption. And with a fixed supply and a constantly growing user base, every transaction on our platform adds value to the token economy.</p>
-            <p class="animate-bottom" id="movesectioncontactustoclub"> Our projections show that with just <b>1%</b> penetration of the legal cannabis market, the token could reach up to <b>$6.60</b> based on usage-driven demand. </p>
-
-
-          </div>
-          <div class="col" id="presalesection_col2">
-            <video class="lazy-video" style="border-radius: 10px;" width="100%" id="videothesolutionsection" controls preload="none" poster="images/IN-STORE2 thum nail 2 .png">
-              <source data-src="videos/store video .mp4" type="video/mp4">
-            </video>
-          </div>
-        </div>
-        <p class="animate-bottom">While future prices cannot be guaranteed, our model is built on utility, scarcity, and real-world integration, not hype.</p>
-        <p class="animate-bottom">This is your chance to get ahead of mass adoption, before we go fully public.</p>
       </div>
     </div>
-    <br>
+    <div class="fugu-shape4">
+      <img src="assets/images/shape/shape3.png" alt="">
+    </div>
+    <div class="fugu-shape5">
+      <img src="assets/images/shape/shape4.png" alt="">
+    </div>
+  </div>
+  <!-- End hero section -->
 
-</section>
-
-<div>
-  <div class="container" id="fivesection">
-        <section id="option1_option2_homepage">
-
-        <b class="fivesectionheading">Your Investment Options</b>
-        <p class="fivesectioncontent">Three Tailored Investment Opportunities:</p>
-        <p class="animate-bottom">We understand that every investor has unique goals and strategies. That’s why we’ve
-          structured our presale with two distinct opportunities, ensuring that everyone can secure a meaningful
-          position in Tangi Token’s promising future.</p>
+  <div class="section bg-warning-200">
+    <div class="container">
+      <div class="fugu-single-thumb wow fadeInUpX" data-wow-delay="0.20s">
+        <img src="assets/images/all-img/v2/hero-thumb.png" alt="">
       </div>
-      <br>
-      <div class="container">
-        <div class="row" id="option_sectionrow">
-          <div class="col-4 animate-left" id="option_sectioncol">
-            <!--img src="images/five section image 1.png" width="70" height="60" alt=""--> <br>
-            <b class="firstsectionsecondline" style=" color: #006400; font-weight: normal;">Option 1: General Presale</b>
-            <br>
-            <p>Designed for investors seeking a straightforward path to growth, The General PreSale offers a total of 10 million tokens</p>
+    </div>
+  </div>
+  <!-- End single thumb -->
 
-            <ul>
-              <li><b>Exclusivity Pricing</b>: For the fastest movers, the first 5 million tokens are priced at a
-                dicounted price of just <b>$0.80c</b> per token. Once those first 5 million tokens are snapped up, the
-                remaing 5 million tokens can be purchased at $1.00 per token.</li>
-              <br>
-              <li><b>Minimum Purchase</b>: 625 tokens, ensuring accessibility for all investors.</li>
-            </ul>
-            <p>Whether you’re looking to test the waters or establish a solid stake, this option provides a compelling entry point into a growing ecosystem.</p>
-            <a href="coming_soon_page.html"  class="btnfirstsection" id="twakmessageJoinPreSaleNow">Join PreSale Now</a>
-
-
-          </div>
-          <div class="col-1 text-center" id="option_sectioncol2">
-            <hr class="vertical-hr">
-            <!--a href="#" class="btnfirstsection">Join Elite Membership</a-->
-          </div>
-
-
-          <div class="col-7 animate-right" id="option_sectioncol">
-            <!--img src="images/five section image 4.png" width="60" height="60" alt=""-->
-            <br>
-            <b class="firstsectionsecondline" style=" color: #006400; font-weight: normal;"><b style="font-weight: normal;">Option 2:</b> Elite Profit Sharing Membership </b>
-            <br>
-            <p>Designed for those seeking to secure larger stakes, the Elite Investor Membership provides unparalleled  benefits :</p>
-            <ul>
-              <!--li><b>Entry Requirement</b>: Purchase of 50,000+ ($30k)</li-->
-              <li><b>Exclusive Benefits:</b>
-                <br>
-                <br>
-                <ul>
-                  <li><b>The Exclusive Club Presale Entry Price:</b> Secure tokens at just <b>$0.60</b> each—<b>40%</b>
-                    below the general presale price—maximizing your potential returns when the token lists and you
-                    choose to sell.</li>
-                  <br>
-                  <li>In addition to the potential returns from selling your tokens upon public listing, Elite Members
-                    unlock an exclusive <b>Profit-Sharing</b> opportunity, earning a share of the company’s net
-                    revenues. This means a steady, long-term residual income stream <b>for five years</b>—maximizing
-                    your investment beyond token appreciation.</li>
-
-                </ul>
-              </li>
-              <br>
-              <li><b>Strategic Advantage</b>: Elite members not only secure tokens at the best possible price but also gain additional returns through their active participation in the project’s profit sharing program.</li>
-              <br>
-              <li><b>Entry Requirement:</b> <b> As little as</b> 50,000+ Tokens <b>($30k)</b> <b>secures this enviable position for you.</b></li>
-            </ul>
-            <a href="coming_soon_page.html"  class="btnfirstsection" id="twakJoinEliteMembership">Join Elite Membership</a>
-            <br>
-            <br>
-
+  <div class="section bg-warning-200 fugu-section-padding3">
+    <div class="container">
+      <div class="fugu-section-title">
+        <h2>Secure solutions for your digital assets and money</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="fugu-iconbox-wrap2 wow fadeInUpX" data-wow-delay="0s">
+            <div class="fugu-iconbox-icon2">
+              <img src="assets/images/all-img/v2/icon1.png" alt="">
+            </div>
+            <div class="fugu-iconbox-data2">
+              <h4>User friendly dashboard</h4>
+              <p>Every user controls the data they wish to see as well as the dashboard's structure.</p>
+            </div>
           </div>
         </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="fugu-iconbox-wrap2 wow fadeInUpX" data-wow-delay="0.20s">
+            <div class="fugu-iconbox-icon2">
+              <img src="assets/images/all-img/v2/icon2.png" alt="">
+            </div>
+            <div class="fugu-iconbox-data2">
+              <h4>Secure and fast payments</h4>
+              <p>Every user controls the data they wish to see as well as the dashboard's structure.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+          <div class="fugu-iconbox-wrap2 wow fadeInUpX" data-wow-delay="0.30s">
+            <div class="fugu-iconbox-icon2">
+              <img src="assets/images/all-img/v2/icon3.png" alt="">
+            </div>
+            <div class="fugu-iconbox-data2">
+              <h4>A wallet you can trust</h4>
+              <p>Every user controls the data they wish to see as well as the dashboard's structure.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End feature section -->
 
+  <div class="fugu-text-slider-section">
+    <div class="fugu-text-slider-area1">
+      <div class="fugu-text-slider1">
+        <div class="fugu-text-slider-data">
+          <div class="fugu-text-slider-icon">
+            <img src="assets/images/all-img/v2/star.png" alt="">
+          </div>
+          <h3>BEST PLACE FOR BUY, SELL & ACCEPT DIGITAL ASSETS </h3>
+        </div>
+        <div class="fugu-text-slider-data">
+          <div class="fugu-text-slider-icon">
+            <img src="assets/images/all-img/v2/star.png" alt="">
+          </div>
+          <h3>BEST PLACE FOR BUY, SELL & ACCEPT DIGITAL ASSETS </h3>
+        </div>
+        <div class="fugu-text-slider-data">
+          <div class="fugu-text-slider-icon">
+            <img src="assets/images/all-img/v2/star.png" alt="">
+          </div>
+          <h3>BEST PLACE FOR BUY, SELL & ACCEPT DIGITAL ASSETS </h3>
+        </div>
 
+      </div>
+    </div>
+    <div class="fugu-text-slider-area2">
+      <div class="fugu-text-slider2" dir="rtl">
+        <div class="fugu-text-slider-data">
+          <div class="fugu-text-slider-icon">
+            <img src="assets/images/all-img/v2/star.png" alt="">
+          </div>
+          <h3>BEST PLACE FOR BUY, SELL & ACCEPT DIGITAL ASSETS </h3>
+        </div>
+        <div class="fugu-text-slider-data">
+          <div class="fugu-text-slider-icon">
+            <img src="assets/images/all-img/v2/star.png" alt="">
+          </div>
+          <h3>BEST PLACE FOR BUY, SELL & ACCEPT DIGITAL ASSETS </h3>
+        </div>
+        <div class="fugu-text-slider-data">
+          <div class="fugu-text-slider-icon">
+            <img src="assets/images/all-img/v2/star.png" alt="">
+          </div>
+          <h3>BEST PLACE FOR BUY, SELL & ACCEPT DIGITAL ASSETS </h3>
+        </div>
 
+      </div>
+    </div>
+  </div>
+  <!-- End fugu text slider section -->
 
-       
-          </section>
-          <br>
-            <section id="option3">
-          <div class="row" id="presalesection_row">
-            <div class="col animate-left">
+  <div class="section bg-warning-200 fugu-section-padding2">
+    <div class="container">
+      <div class="fugu-section-title2">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>Buy your favorite crypto at the price you want</h2>
+          </div>
+          <div class="col-lg-5 offset-lg-1 d-flex align-items-center">
+            <p>This is a platform where you can buy & sell all your chosen-cryptocurrencies and digital assets at affordable prices. It is a plans to leverage blockchain technology.</p>
+          </div>
+        </div>
+      </div>
+      <div class="fugu-video-thumb fugu-video-thumb2 wow fadeInUpX" data-wow-delay="0.10s">
+        <img src="assets/images/all-img/v2/video-thumb.png" alt="">
+        <a class="fugu-popup" href="https://www.youtube.com/watch?v=7e90gBu4pas">
+          <img src="assets/images/all-img/v2/video-btn.png" alt="">
+          <div class="fugu-play-btn">
+            <img src="assets/images/all-img/play-btn.png" alt="">
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- End video section -->
 
-              <b class="firstsectionsecondline" style=" color: #006400; font-weight: normal;"><b style="font-weight: normal;">Option 3:</b> Instant Access Option — Non-Vesting at $1.45</b>
-              <br>
-              <br>
-              <p>  For those who prefer immediate liquidity rather than short-term vesting, a limited allocation of tokens will be available at <b>$1.45</b> with no lock-in period.</p>
-              <p>This tier is offered to ensure fairness across the board:</p>
+  <div class="section bg-warning-100 fugu-section-padding overflow-hidden">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="fugu-trading-card">
+            <div class="fugu-trading-card-thumb">
+              <img class="wow fadeInUpX" data-wow-delay="0s" src="assets/images/all-img/v2/card1.png" alt="">
+              <div class="fugu-trading-card-thumb2">
+                <img class="wow fadeInLeft" data-wow-delay="0.20s" src="assets/images/all-img/v2/card2.png" alt="">
+              </div>
+              <div class="fugu-shape6">
+                <img src="assets/images/shape/shape5.png" alt="">
+              </div>
+              <div class="fugu-shape7">
+                <img src="assets/images/shape/shape6.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-10 d-flex align-items-center">
+          <div class="fugu-default-content z-index">
+            <h2>Safe, guaranteed, & easy to use to get started trading</h2>
+            <p>It simplifies the process of buying and selling digital assets from anywhere in the world. Available to citizens in the United States, Europe, & Australia.</p>
+            <div class="fugu-icon-list fugu-icon-list3">
               <ul>
-                <li>The majority of Round 1 tokens are fully staked for 18 months, since May 1st 2025</li>
-                <li>All other Round 2 participants are subject to a short post-listing vesting</li>
+                <li><img src="assets/images/svg/check2.svg" alt="">It starts with a simple order form transfer</li>
+                <li><img src="assets/images/svg/check2.svg" alt="">Next, your money is turned into Chain</li>
+                <li><img src="assets/images/svg/check2.svg" alt="">Boom! 20% interest made overnight</li>
               </ul>
-              <p>This immediate-access tier ensures that those seeking flexibility contribute more upfront, aligning price with freedom.</p>
-              <a href="coming_soon_page.html" class="btnfirstsection" id="twakmessageJoinPreSaleNow">Join PreSale Now</a>
-
-
-            </div>
-            <div class="col animate-right" id="presalesection_col2">
-              <video class="lazy-video" style="border-radius: 10px;" width="100%" controls preload="none" poster="images/RON-THUMB.png">
-                <source data-src="videos/ron video.mp4" type="video/mp4">
-              </video>
             </div>
           </div>
-        </section>
-        <br>
-        <p class="fivesectioncontent animate-bottom" id="movenavtoproble">Where Do You Fit In?</p>
-        <p class="animate-bottom" id="movesectiontheproblem">Whether you choose the <b>General Presale</b> or the
-          <b>Elite Membership</b>, both options position you at the forefront of Tangi’s growth story. Early investors
-          are uniquely placed to benefit from our compliance-driven market strategy, limited token supply, and growing
-          ecosystem of incentivized end users.
-        </p>
-
-
-        <br>
-              
-          <div class="row">
-            <div class="col-4" id="option_sectioncol">
-              <p class="animate-bottom"><b style="color: #006400;">Vesting Notice :</b></p>
-
-            <p>
-         All Round 2 token purchases will be subject to a linear vesting period. This decision is rooted in our commitment to protecting the integrity of the project and safeguarding the long-term value of your investment.
-              <span class="dots" data-id="1">...</span>
-             <span class="moreText" data-id="1" style="display: none; line-height: 25px;">
-              <br>
-              <br>
-                 <b>Why It's Good For You</b>  
-              <br>
-              <br>
-              Each month, your vested tokens will be automatically released in equal monthly portions, ensuring smooth distribution and full transparency. This structure promotes a measured and stable post-listing environment, reduces volatility, and supports long-term price health for all participants.
-              <br>
-              <br>
-              <b>•</b> Price Protection – Linear vesting prevents sudden sell-offs and promotes long-term value creation.
-              <br>
-              <b>•</b> Investor Fairness – Everyone exits gradually, preserving equity across the community.
-               <br>
-                <b>•</b> Sustainable Growth – It allows time for adoption, end-user onboarding, and organic token utility growth.
-                <br>
-              <b>•</b>  Aligned Vision – It aligns all investor timelines with our rollout, service delivery, and public listing strategy.
-                <br>
-             <b>•</b> We’ve built this to serve a serious purpose. We are not here for a quick pump — we’re here to build a lasting movement in cannabis payments.
-              <br>
-             <br> This vesting structure is one more step in the right direction.
-           
-           
-             </span>
-             <a href="javascript:void(0);" class="toggleBtn modern-link" data-id="1"> Show more</a>
-           </p>
-
-
-
-
-</div>
-<div class="col-1 text-center" id="option_sectioncol2">
-  <hr class="vertical-hr2">
-  <!--a href="#" class="btnfirstsection">Join Elite Membership</a-->
-</div>
-<div class="col-7" id="option_sectioncol">
-              <p>
-                  <b style="color: #006400;">How Vesting Works:</b>
-              <br>
-              <br>
-          Buyers in the General Presale will be vested over 12 months from the date of purchase.
-Buyer opting to join the Elite Membership have a shorter 9-month vesting period from the date of purchase.
-
-                
-             <span class="dots" data-id="1">...</span>
-             <span class="moreText" data-id="1" style="display: none; line-height: 25px;">
-              <br>
-              <br>
-          
-            
-              <b>Understanding Your Token Release Schedule (Vesting)</b>
-              <br>
-              <br>
-              When you buy tokens in the presale, they aren’t sent to your wallet all at once. Instead, they are released to you gradually — this is called vesting.
-              <br>
-              <br>
-         
-              <strong>Standard Presale Buyers: </strong>
-              As an example,  if you buy 48,000 tokens, you’ll receive 4,000 tokens per month for <b>12 months</b>.
-           
-              This monthly release happens automatically, and the same rule applies to any amount you buy — unless you qualify as an Elite Member (see below).
-              <br>
-              <br>
-              <strong> Elite Members:</strong> If you buy 50,000 tokens or more, you become part of our Elite Membership group.
-              <br>
-               Elite Members receive their tokens over <b>9 months</b>.
-              
-             For example, if you purchase 90,000 tokens, you’ll receive 10,000 tokens <b>per month</b> for 9 months.
-             
-              <br>
-              <br>
-               This is not a meme coin, nor will it ever be. TANGI has been meticulously built over four years with real-world utility, institutional structure, and a clear roadmap — designed to benefit all, not just a select few. Everything we’ve implemented, from staking to our banking-backed payment solution, serves one goal: stability, sustainability, and shared success
-               <br>
-               <br>
-              <b>Optional Staking :</b>
-              <br>
-              <br>
-                A staking option may be offered closer to the time of listing,
-                giving investors the opportunity to grow their holdings further. Details will be shared in due course.
-              
-            </span>
-             <a href="javascript:void(0);"  class="toggleBtn modern-link" data-id="1"> Show more</a>
-           </p>
-              
-            </div>
-          </div>
-
-
-          
-      </div>
-   
-
-
-
-      
-    </div>
-
-
-
-
-
-    <section id="bottom_line">
-    <div class="container" id="fourthsection">
-
-      <br>
-        <h1 style="color: #5737c4; font-family: 'Times New Roman', Times, serif; font-weight: bold;">The Bottom Line</h1>
-        <h5 class="firstsectionsecondline" style=" color: #006400; font-weight: normal;">Why Invest Now</h5>
-        <br>
-
-
-
-        <div class="row" id="presalesection_row">
-          <div class="col animate-left">
-            <p>The real value of this project is in the token itself</b>. We’ve cleared the regulatory hurdles, built a compliant payment infrastructure, secured a crucial banking relationship and created a system that makes the token the most appealing option for both retailers and consumers, opening the door for mass token adoption.</p>
-            <p>The 50 million presale tokens will represent the entire supply available when the token lists publicly. You and your fellow investors will control this exclusive supply, which will directly meet the demand from up to 60 million potential end users in a <b>$33B</b> market, all eager to buy the token.</p>
-            <p>The token is the backbone of our business, driving revenue streams, increasing its value, and providing real-world utility for consumers and retailers alike. </p>
-            <p>By investing today, you’re positioning yourself in a project that has already overcome the toughest  hurdles, with a clear path to success and massive growth potential.</p>
-
-          </div>
-          <div class="col animate-right" id="presalesection_col2">
-            <video class="lazy-video" style="border-radius: 10px;" width="100%" controls preload="none" poster="images/brian-cown-thub nail first video .png">
-              <source data-src="videos/bottom line video home page.mp4" type="video/mp4">
-
-            </video>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-
-
-    <div class="container" id="sixsectionstrike2">
-      <b class="sevensectionhead" style="color: #5737c4; font-size: 35px;">The Word On The Street</b>
-      <br>
-      <br>
-      <br>
-
-    </div>
-
-    <div class="container" id="cardWrappercontainer">
-      <div class="bg-gray-100 p-1 flex items-center justify-center" id="cardWrappermaindiv">
-        <div id="cardWrapper" class="relative w-full flex items-center">
-          <button id="leftBtn" class="nav-btn"><img src="images/errow btn 8 section.png" width="50" style="z-index: 999;"></button>
-          <!-- Left Button -->
-
-          <div id="cardContainer">
-            <!-- 8 Cards -->
-            <div class="card_8">
-              <video class="lazy-video" width="300" height="400" controls preload="none" poster="images/5 card home page thum nail card 6.jpg">
-                <source data-src="videos/5 card video 8 home page.mp4" type="video/mp4">
-
-              </video>
-            </div>
-            <div class="card_8">
-              <img src="images/5 card image card 2.jpg" width="100%" height="100%" alt="Tangi App being used as payment by real life consumers in cannabis store in San Diego">
-            </div>
-            <div class="card_8">
-              <img src="images/5 card image card 3.jpg" width="100%" height="100%" alt="Tangi Promotion and Market Testing in Real life dispensaries">
-            </div>
-            <div class="card_8">
-              <video class="lazy-video" width="300" height="400" controls preload="none" poster="images/5 card home page thum nail card 4.jpg">
-                <source data-src="videos/5 card video 4 home page.mp4" type="video/mp4">
-
-              </video>
-            </div>
-            <div class="card_8">
-              <video class="lazy-video" width="300" height="400" controls preload="none" poster="images/5 card home page thum nail card 8.jpg">
-                <source data-src="videos/5 card video 7 home page.mp4" type="video/mp4">
-
-              </video>
-            </div>
-            <div class="card_8">
-              <video class="lazy-video" width="300" height="400" controls preload="none" poster="images/5 card home page thum nail card 7.jpg">
-                <source data-src="videos/5 card video 6 home page.mp4" type="video/mp4">
-
-              </video>
-            </div>
-            <div class="card_8">
-              <video class="lazy-video" width="300" height="400" controls preload="none"  poster="images/5 card home page thum nail card 5.jpg">
-                <source data-src="videos/5 card video 5 home page.mp4" type="video/mp4">
-
-              </video>
-            </div>
-            <div class="card_8" id="movesectionmedia">
-              <video class="lazy-video" width="300" height="400" controls preload="none" poster="images/home page 8 card last card thum nail .png">
-                <source data-src="videos/home page 8 card last video.mp4" type="video/mp4">
-
-              </video>
-            </div>
-          </div>
-
-          <!-- Right Button -->
-          <button id="rightBtn" class="nav-btn"><img src="images/errow btn 8 section.png" style="transform: rotate(180deg);" width="50" alt=""></button>
-        </div>
-      </div>
-
-    </div>
-    <br>
-    <br>
-
-
-
-
-
- 
-
-
-
-
-    <div class="container" id="sixsectionstrike">
-      <b class="sevensectionhead" style="color: #5737c4; font-size: 35px;">Our Media</b>
-      <!--p class="sixsectioncontent">
-        
-      </p-->
-    </div>
-
-    <div class="container" id="cardWrappercontainer">
-      <div class="bg-gray-100 p-1 flex items-center justify-center">
-        <div id="cardWrapperartical" class="relative w-full flex items-center">
-          <button id="leftBtnartical" class="nav-btn"><img src="images/errow btn 8 section.png" width="50" alt=""></button>
-          <!-- Left Button -->
-          <div id="cardContainerartical">
-            <!-- 8 Cards -->
-            <a href="https://highlycapitalized.com/insights/gettangi-corporation-eyes-regulatory-opportunities-in-cryptocurrency-under-trump-administration/" target="_blank" style="text-decoration: none;">
-              <div class="card_artical" id="sevencardfirstbg">
-                <p>GetTangi Corporation Eyes Regulatory Opportunities in Cryptocurrency Under Trump Administration</p>
-              </div>
-            </a>
-            <a href="https://www.irishtimes.com/business/2024/11/17/cowen-factor-as-trump-win-cheers-cannabis-crypto-entrepreneur/" target="_blank" style="text-decoration: none;">
-              <div class="card_artical" id="sevencardfirstbg2">
-                <p>Cowen factor as Trump win cheers cannabis crypto entrepreneur</p>
-              </div>
-            </a>
-            <a href="https://www.bbc.com/news/world-us-canada-66320970" target="_blank" style="text-decoration: none;">
-              <div class="card_artical" id="sevencardfirstbg3">
-                <p>Mastercard demands US cannabis shops stop accepting debit cards</p>
-              </div>
-            </a>
-            <a href="https://investmentu.com/tangi-crypto/" target="_blank" style="text-decoration: none;">
-              <div class="card_artical" id="sevencardfirstbg4">
-                <p>Tangi Crypto: Where Crypto Meets Cannabis</p>
-              </div>
-            </a>
-            <a href="https://www.bloomberg.com/news/articles/2022-12-05/how-to-buy-weed-that-s-changing-as-cashless-atms-close?leadSource=uverify%20wall#xj4y7vzkg" target="_blank" style="text-decoration: none;">
-              <div class="card_artical" id="sevencardfirstbg5">
-                <p>Weed Shops Switch to Cash After Cashless ATM Crackdown</p>
-              </div>
-            </a>
-            <a href="https://www.businesspost.ie/news/cowen-linked-cannabis-and-cryptocurrency-firm-to-raise-4m/" target="_blank" style="text-decoration: none;">
-              <div class="card_artical" id="sevencardfirstbg6">
-                <p>Cowen-linked cannabis and cryptocurrency firm to raise <b>$4m</b></p>
-              </div>
-            </a>
-            <a href="https://headtopics.com/ie/cowen-back-on-board-of-canadian-cannabis-and-cryptocurrency-firm-28988322" target="_blank" style="text-decoration: none;">
-              <div class="card_artical" id="sevencardfirstbg7">
-                <p>Cowen back on board of Canadian cannabis and cryptocurrency firm</p>
-              </div>
-            </a>
-            <a href="https://cryptodaily.co.uk/2022/02/cannabis-or-crypto-where-should-i-invest-in-2022" target="_blank" style="text-decoration: none;">
-              <div class="card_artical" id="sevencardfirstbg8">
-                <p>Cannabis or Crypto? Where should I Invest in 2022?</p>
-              </div>
-            </a>
-            <a href="https://hive.blog/tangi/@highsteam1900/tangi-token-poised-for-fractal-governance" target="_blank" style="text-decoration: none;">
-              <div class="card_artical" id="sevencardfirstbg9">
-                <p>Tangi Token Poised for Fractal Governance</p>
-              </div>
-            </a>
-            <a href="https://www.bitcoininsider.org/article/146970/cannabis-or-crypto-where-should-i-invest-2022" target="_blank" style="text-decoration: none;">
-              <div class="card_artical" id="sevencardfirstbg10">
-                <p>Cannabis or Crypto? Where should I Invest in 2022?</p>
-              </div>
-            </a>
-            <a href="https://blockchair.com/news/the-use-of-blockchain-in-the-cannabis-world--8d2f1afb1d" target="_blank" style="text-decoration: none;">
-              <div class="card_artical" id="sevencardfirstbg11">
-                <p>The Use of Blockchain in the Cannabis World</p>
-              </div>
-            </a>
-            <!--a href="" target="_blank" style="text-decoration: none;">
-              <div class="card_artical" id="sevencardfirstbg12">
-                <p></p>
-              </div>
-            </a-->
-          </div>
-
-          <!-- Right Button -->
-          <button id="rightBtnartical" class="nav-btn"><img src="images/errow btn 8 section.png" style="transform: rotate(180deg);" width="50" alt=""></button>
         </div>
       </div>
     </div>
+  </div>
+  <!-- End trading section -->
 
+  <div class="section bg-gray-800 fugu-section-padding3">
+    <div class="container">
+      <div class="fugu-section-title title-white">
+        <h2>Everything you need for crypto trading is available</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="fugu-iconbox-wrap3 wow fadeInUpX" data-wow-delay="0s">
+            <div class="fugu-iconbox-icon3">
+              <img src="assets/images/all-img/v2/icon4.png" alt="">
+            </div>
+            <div class="fugu-iconbox-data3">
+              <h4>Free trial account</h4>
+              <p>a product or service that is offered to customers for free for a short period of time so they can try using it easily.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="fugu-iconbox-wrap3 wow fadeInUpX" data-wow-delay="0.10s">
+            <div class="fugu-iconbox-icon3">
+              <img src="assets/images/all-img/v2/icon5.png" alt="">
+            </div>
+            <div class="fugu-iconbox-data3">
+              <h4>Guided by experts</h4>
+              <p>CryptoExperts SAS is a company founded by internationally recognized industrial & academic researchers.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="fugu-iconbox-wrap3 wow fadeInUpX" data-wow-delay="0.20s">
+            <div class="fugu-iconbox-icon3">
+              <img src="assets/images/all-img/v2/icon6.png" alt="">
+            </div>
+            <div class="fugu-iconbox-data3">
+              <h4>Affordable plans</h4>
+              <p>If you're ready to invest in some crypto, check out the nexto cheap options that could generate nice returns in 2022.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="fugu-iconbox-wrap3 wow fadeInUpX" data-wow-delay="0.30s">
+            <div class="fugu-iconbox-icon3">
+              <img src="assets/images/all-img/v2/icon7.png" alt="">
+            </div>
+            <div class="fugu-iconbox-data3">
+              <h4>24/7 Live support</h4>
+              <p>When you need help, our team of experts will work with you via our 24/7 live chat to reach a quick & efficient.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="fugu-iconbox-wrap3 wow fadeInUpX" data-wow-delay="0.40s">
+            <div class="fugu-iconbox-icon3">
+              <img src="assets/images/all-img/v2/icon8.png" alt="">
+            </div>
+            <div class="fugu-iconbox-data3">
+              <h4>Online wallets</h4>
+              <p>Best for security because it comes with the strongest security features & track record of any cryptoo online wallet.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="fugu-iconbox-wrap3 wow fadeInUpX" data-wow-delay="0.50s">
+            <div class="fugu-iconbox-icon3">
+              <img src="assets/images/all-img/v2/icon9.png" alt="">
+            </div>
+            <div class="fugu-iconbox-data3">
+              <h4>Multi curency support</h4>
+              <p>Multi-currency support means that shoppers can pay for your products or services using the currency.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End feature section -->
 
+  <div class="fugu-trading-section2">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 order-lg-2">
+          <div class="fugu-trading-card fugu-trading-card2">
+            <div class="fugu-trading-card-thumb">
+              <img class="wow fadeInUpX" data-wow-delay="0s" src="assets/images/all-img/v2/card3.png" alt="">
+              <div class="fugu-trading-card-thumb2">
+                <img class="wow fadeInUpX" data-wow-delay=".20s" src="assets/images/all-img/v2/card4.png" alt="">
+              </div>
+              <div class="fugu-shape6">
+                <img src="assets/images/shape/shape5.png" alt="">
+              </div>
+              <div class="fugu-shape7">
+                <img src="assets/images/shape/shape6.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-10 d-flex align-items-center">
+          <div class="fugu-default-content">
+            <h2>Start your crypto trading with the most easy process</h2>
+            <p>It simplifies the process of buying and selling digital assets from anywhere in the world. Available to citizens in the United States, Europe, & Australia.</p>
+            <div class="fugu-accordion-wrap fugu-accordion-wrap2">
+              <div class="fugu-accordion-item">
+                <h4>Download and create an account easily</h4>
+                <img src="assets/images/svg/arrow-black-right2.svg" alt="">
+              </div>
+              <div class="fugu-accordion-item">
+                <h4>Link your bank account & make a payment</h4>
+                <img src="assets/images/svg/arrow-black-right2.svg" alt="">
+              </div>
+              <div class="fugu-accordion-item">
+                <h4>Start buying & selling crypto as you wish</h4>
+                <img src="assets/images/svg/arrow-black-right2.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End trading section -->
 
-
-
-    <!--div style="text-align: center;">
-    <br>
-    <a href="#" onclick="trackAndRedirect()" class="btn btn-primary">Go to Staking</a>
-  </div-->
-  </main>
-
-
-
-
+    </main>
   <!-- Feedback Popup Box -->
   <div id="feedbackBox" class="feedback-box">
   <div class="feedback-header"> <h5><i class="fas fa-bell"></i> Get Updates</h5></div>
@@ -1474,13 +1194,29 @@ window.addEventListener("scroll", function () {
 
   </script>
 
+<!-- /*----------------------templete-------------------*/ -->
 
+  <!-- scripts -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/menu/menu.js"></script>
+  <script src="assets/js/slick.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/countdown.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyArZVfNvjnLNwJZlLJKuOiWHZ6vtQzzb1Y"></script>
+
+  <script src="assets/js/app.js"></script>
+
+  <!-- /*----------------------templete-------------------*/ -->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
   <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"> </script>
-  <script src="scripthomepage.js"></script>
+  <!-- <script src="scripthomepage.js"></script> -->
 
   <!--div id="customToast">
       <button class="closeBtn" onclick="closeToast()">×</button>

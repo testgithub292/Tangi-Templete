@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
             window.location.href = "gettangi_prepage.html"; // Agar nahi dekha to intro page par le jao
         }
 */
-
+/*
 document.addEventListener("DOMContentLoaded", function () {
     let videos = document.querySelectorAll(".lazy-video");
 
@@ -49,15 +49,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
     videos.forEach(video => observer.observe(video));
 });
-
+*/
 /*---------------------------------------------------------*/
 /*-----------------open prepage code index-------------*/
-
+/*
 // Check karna ke user ne intro dekha hai ya nahi
 if (!sessionStorage.getItem("visited") || performance.navigation.type === 1) {
     sessionStorage.setItem("visited", "true"); // Set karna ke ab dekha gaya hai
     window.location.href = "gettangi_prepage.html"; // Redirect to intro page
-}
+}*/
 //*--------------------*/
 
   // Get the navbar
@@ -619,7 +619,7 @@ function navigateAndOpenModal(event) {
 */
 
 /*-----------------------------------------------------*/
-
+/*
 const cardContainer = document.getElementById("cardContainer");
 const cardWidth = 310; // Card width + gap
 
@@ -643,7 +643,8 @@ document.getElementById("leftBtnartical").addEventListener("click", function() {
 
 document.getElementById("rightBtnartical").addEventListener("click", function() {
   cardContainerartical.scrollBy({ left: cardWidth, behavior: 'smooth' });
-});
+});*/
+/*---------------------------------*/
 
 /*
 const cardContaineryoutubevideo = document.getElementById("cardContaineryoutubevideo");
@@ -979,7 +980,7 @@ showMoreBtn.addEventListener("click", function() {
 /*--------------------------*/
 
     /*-----------------------------------------*/
-    
+ /*   
  // Function to detect when elements come into view
  function animateOnScroll(entries, observer) {
     entries.forEach(entry => {
@@ -1000,8 +1001,9 @@ const observer = new IntersectionObserver(animateOnScroll, {
 // Observe all elements that need animation
 document.querySelectorAll(".animate-left, .animate-right, .animate-p").forEach(element => {
     observer.observe(element);
-});
+});*/
 /*---------------------------------------------*/
+/*
 // Function to detect when elements come into view
 function animateBottomOnScroll(entries, observer) {
 entries.forEach(entry => {
@@ -1024,7 +1026,7 @@ document.querySelectorAll(".animate-bottom").forEach(element => {
 bottomObserver.observe(element);
 });
 
-
+*/
 /*----------------------------*/
 /*
 function toggleText() {
@@ -1103,7 +1105,7 @@ function toggleText(id) {
   }
 }
 */
-
+/*
 
 document.querySelectorAll('.toggleBtn').forEach(btn => {
   btn.addEventListener('click', function () {
@@ -1129,7 +1131,7 @@ function toggleText(id) {
     buttons.forEach(btn => btn.innerHTML = " Show less");
   }
 }
-
+*/
 /*--------custom notificaton ----------*/
 
 /*

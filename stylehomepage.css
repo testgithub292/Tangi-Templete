@@ -261,7 +261,7 @@ background-color: whitesmoke;
 
 
 /*-------------------------------------------*/
-
+/*
 body p{
   font-size: 18px;
   font-family: 'Times New Roman', Times, serif;
@@ -278,7 +278,10 @@ body h1{
   font-family: 'Times New Roman', Times, serif;
 
 }
+*/
 
+
+/*
 .hero_firstsection {
   position: relative;
   width: 100%;
@@ -411,7 +414,7 @@ margin-top: 130px;
       text-align: center;
       justify-content: center;
   }
-
+/*
   body h1{
     font-size: 25px !important;
     font-family: 'Times New Roman', Times, serif;
@@ -422,7 +425,7 @@ margin-top: 130px;
     font-size: 25px !important;
     font-family: 'Times New Roman', Times, serif;
   
-  }
+  }*/
 
   .fourthsectionheading{
     font-size: 25px !important;
