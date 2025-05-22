@@ -46,7 +46,7 @@ scrollTopBtn.onclick = function() {
 
   //-----------------------------------------------------
 
-
+/*
     // Get the navbar
     const navbar = document.querySelector('.navbar');
 
@@ -63,7 +63,7 @@ scrollTopBtn.onclick = function() {
 
  
 
-    /*-----------navbar sub menu code*/
+    /*-----------navbar sub menu code
 document.addEventListener('DOMContentLoaded', function () {
   const submenuToggles = document.querySelectorAll('.dropdown-submenu > .dropdown-toggle');
 
@@ -86,4 +86,4 @@ document.addEventListener('DOMContentLoaded', function () {
       e.stopPropagation();
     });
   });
-});
+});*/

@@ -563,3 +563,161 @@
 }
 
 /*----------------------------------*/
+
+/*---Footer css--------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------*/
+.site-footer {
+  background-color: #fff;
+  color: black;
+  padding: 40px 0 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-contact {
+  text-align: center;
+}
+
+.footer-links, .footer-contact {
+  line-height: 25px;
+  flex-basis: 45%;
+}
+
+.footer-links h3, .footer-contact h3 {
+  margin-bottom: 0px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: black;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.footer-links a:hover {
+  opacity: 0.8;
+}
+
+.footer-contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-contact input,
+.footer-contact textarea {
+  margin-bottom: 0px;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+.footer-contact button {
+  background-color: #fff;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer-contact button:hover {
+  background-color: wheat;
+  color: black;
+}
+
+.footer-bottom {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  /* margin-top: 5px; */
+ /* padding: 0 20px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;*/
+}
+
+.footer-social {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icon {
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: white;
+}
+
+.footer-legal {
+  display: flex;
+  gap: 20px;
+}
+
+.legal-link {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  transition: opacity 0.3s ease;
+}
+
+.legal-link:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 992px) {
+  .footer-content {
+    flex-direction: column;
+  }
+  .footer-contact {
+    margin-top: 30px;
+  }
+  .footer-links, .footer-contact {
+    flex-basis: 100%;
+    margin-bottom: 0px;
+  }
+
+  .footer-bottom {
+    /*flex-direction: column;
+    gap: 20px;*/
+    margin-top: 20px;
+
+  }
+
+  .footer-social, .footer-legal {
+    justify-content: left;
+  }
+}
+
+.social-icon.fa-tiktok {
+  font-size: 22px;
+}
