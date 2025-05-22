@@ -7853,11 +7853,11 @@ a.fugu-pricing-btn.active {
 }
 
 .fugu-section-padding2 {
-  padding: 110px 0 120px;
+  padding: 100px 0 10px !important;
 }
 @media (max-width: 991px) {
   .fugu-section-padding2 {
-    padding: 90px 0 100px;
+    padding: 90px 0 10px;
   }
   #section3_col{
    padding-top: 40px;
@@ -7865,21 +7865,21 @@ a.fugu-pricing-btn.active {
 }
 @media (max-width: 992px) {
   .fugu-section-padding2 {
-    padding: 70px 0 80px;
+    padding: 70px 0 10px;
   }
 }
 
 .fugu-section-padding3 {
-  padding: 10px 0 96px;
+  padding: 10px 0 96px !important;
 }
 @media (max-width: 991px) {
   .fugu-section-padding3 {
-    padding: 10px 0 76px;
+    padding: 10px 0 76px !important;
   }
 }
 @media (max-width: 992px) {
   .fugu-section-padding3 {
-    padding: 10px 0 56px;
+    padding: 10px 0 56px !important;
   }
 }
 
@@ -11616,3 +11616,8 @@ circle {
 /*1.4 themes css*/
 /*# sourceMappingURL=app.css.map */
 /*--------------------*/
+@media (max-width: 600px) {
+  #video_brain_mainpage{
+    width: 100%;
+  }
+}
