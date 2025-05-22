@@ -188,10 +188,7 @@ main h1 {
   font-size: 35px;
   
 }
-#firstsectionbg{
-  padding-top: 150px;
-  
-}
+
 
 .firstsectionheading{
   
@@ -1153,9 +1150,7 @@ color: var(--color);
 
 /*===============================================*/
 
-#firstsectionbg{
-  padding-top: 150px;
-}
+
 
 
 .modal h4{
@@ -1187,9 +1182,7 @@ color: var(--color);
       font-weight: bold;
     }
 
-    #firstsectionbg{
-      padding-top: 120px;
-    }
+    
 }
 
 
