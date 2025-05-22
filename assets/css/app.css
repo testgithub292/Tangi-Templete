@@ -4524,7 +4524,7 @@ a.fugu-app-btn:last-child {
     padding: 120px 0 190px;
   }
 }
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .fugu-hero-section2:after {
     content: "";
     left: 0;
@@ -4536,7 +4536,7 @@ a.fugu-app-btn:last-child {
     position: absolute;
     background-color: #000;
   }
-}
+} */
 .fugu-hero-section2:before {
   content: "";
   left: 0;
