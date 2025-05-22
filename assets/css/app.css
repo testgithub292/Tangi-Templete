@@ -11621,3 +11621,14 @@ circle {
     width: 100%;
   }
 }
+@media (max-width: 992px) {
+#partner_section_row{
+  display: block;
+}
+  #partner_section_col{
+    margin-bottom: 30px;
+  }
+  #partner_section_img{
+    height: 300px;
+  }
+}

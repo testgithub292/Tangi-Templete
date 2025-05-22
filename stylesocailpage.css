@@ -23,6 +23,7 @@
   }
   
   .footer-links, .footer-contact {
+    line-height: 25px;
     flex-basis: 45%;
   }
   
